@@ -46,13 +46,24 @@ body {
 
 @media (max-width: 768px) {
   .profile-image {
-      width: 50vw; /* Ajustar el ancho */
-      height: auto; /* Mantener la relación de aspecto */
-      max-width: 150px; /* Ajustar según sea necesario */
-      max-height: 150px; /* Limitar la altura máxima */
-      bottom: 15%; /* Ajustar la posición según sea necesario */
-      left: 9%; /* Ajusta según sea necesario para mover la imagen más a la izquierda */
+      width: 50vw;
+      height: auto;
+      max-width: 150px; 
+      max-height: 150px; 
+      bottom: 15%; 
+      left: 9%; 
       transform: translateX(0)
+  }
+}
+@media (max-width: 576px) {
+  .profile-image {
+      width: 60vw;
+      height: auto;
+      max-width: 120px;
+      max-height: 120px;
+      bottom: 10%;
+      left: 10%;
+      transform: translateX(-50%);
   }
 }
 
