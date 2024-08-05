@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página CV</title>
+    <title>CV Laura Cuenca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -11,53 +12,71 @@
 <body>
     <div id="navbar-container"></div>
 
-    <!-- Header Section -->
     <header class="jumbotron text-center">
-        <h1 class="display-4">¡Hola! Soy Laura Cuenca</h1>
-        <p class="lead">Desarrolladora Trainee</p>
+        <h1 class="display-4">Laura Cuenca</h1>
+        <p class="lead mt-3">Desarrolladora Trainee</p>
+        <img src="assets/LauraCuenca.jpeg" alt="Foto de Laura" class="profile-image">
+
+        <div class="contact-info mt-4">
+            <p>Email: <a>laura.cuenca1@gmail.com</a></p>
+            <p>Teléfono: <a>(221) 3631353</a></p>
+        </div>
     </header>
 
-    <section id="about" class="container my-5">
-        <h2>Sobre Mí</h2>
-        <p>Hola! Soy Laura de La Plata. Actualmente soy estudiante de la Facultad de Informática de La plata. Estoy estudiando la Licenciatura en Sistemas y me quedan 10 materias para obtener el título Intermedio como Analista programador universitario.
+<section id="about" class="about-section container my-3 mt-5">
+        <h2 class="mb-3">Sobre Mí</h2>
+<p>Actualmente soy estudiante de la Facultad de Informática de La Plata. Estoy estudiando la Licenciatura en Sistemas y me quedan 3 materias para obtener el título Intermedio como Analista Programador Universitario.</p>
 
-            Me mantengo en constante capacitación, realice cursos sobre HTML, JavaScript y Python. 
-            Actualmente estoy realizando un bootcamp Full Stack en Cilsa.
-            No poseo experiencia en el rubro de la informática, pero estoy dispuesta a aprender y dar todo de mi lado para poder seguir creciendo y enriquecer mis conocimientos.
-            
-            Mis habilidades son:
-            
-             • Excel.
-             • Word.
-             • Power Point.
-             • SQL
-             • GitHub
-             • Python
-             • Java
-             • Pascal
-             • POO (Programación Orientada a Objetos)
-             • Linux
-            
-            En la Universidad participé de proyectos en grupo en donde pude desarrollar y experimentar el compañerismo, la escucha de ideas y poder aprender de mis compañeros. Actualmente me interesan las posiciones como Developer o Analista de Datos.</p>
-    </section>
+<p>Me mantengo en constante capacitación, he realizado cursos sobre HTML, JavaScript y Python. Actualmente estoy realizando un bootcamp Full Stack en Cilsa.</p>
 
-    <!-- Experience Section -->
-    <section id="experience" class="container my-5">
-        <h2>Github</h2>
-        <ul>
-            <li>[Trabajo o Proyecto 1]</li>
-            <li>[Trabajo o Proyecto 2]</li>
-            <li>[Trabajo o Proyecto 3]</li>
-        </ul>
-    </section>
+<p>No poseo experiencia en el rubro de la informática, pero estoy dispuesta a aprender y dar todo de mi lado para poder seguir creciendo y enriquecer mis conocimientos.</p>
+</section>
+
+<section id="skills" class="skills-section container my-3">
+    <h2 class="mb-3">Habilidades</h2>
+    <p>En la Universidad aprendí a programar en Java, Python y Pascal. También aprendí a utilizar Excel, Word, Power Point, SQL y GitHub.</p>
+    <p>En el bootcamp estoy aprendiendo a programar en JavaScript, HTML, CSS, Node.js, React y MongoDB.</p>
+    <p>Además, estoy aprendiendo a utilizar herramientas como Git, Slack y Discord.</p>
+    <p>Estoy en constante capacitación y aprendizaje para poder seguir creciendo y adquirir nuevos conocimientos.</p>
+</section>
+
+<section id="enlaces" class="enlaces-section w-100 text-center">
+    <h3 class="text-center mb-5">Mis Enlaces y CV</h3>
+    <div class="row">
+        <div class="col-md-4 enlace">
+            <h2>
+                <a href="https://www.linkedin.com/in/laura-cuenca-/" target="_blank" class="enlace-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </h2>
+            <p>En mi cuenta de LinkedIn podrás encontrar mi experiencia laboral y los proyectos que he realizado en la Universidad.</p>
+        </div>
+        <div class="col-md-4 enlace">
+            <h2>
+                <a href="https://github.com/LauraCuenca" target="_blank" class="enlace-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </h2>
+            <p>En mi cuenta de GitHub podrás encontrar los proyectos que he realizado en la Universidad y los que estoy realizando en el bootcamp.</p>
+        </div>
+        <div class="col-md-4 enlace">
+            <h2>
+                <a href="LauraCuenca.pdf" download="LauraCuenca.pdf" class="enlace-link">
+                    <i class="fas fa-download"></i> Descargar CV
+                </a>
+            </h2>
+            <p>Si deseas descargar mi CV, haz clic en el enlace.</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
-    <!-- Footer -->
     <footer class="text-center py-4">
-        <p>&copy; 2024 Laura Cuenca. Todos los derechos reservados.</p>
+        <p> 2024 Laura Cuenca.</p>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

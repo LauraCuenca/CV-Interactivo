@@ -1,64 +1,194 @@
 body {
-    transition: background-color 0.3s, color 0.3s;
+    background-color: #ede9e9 !important;
+    font-family: 'Merriweather', serif;
 }
 
 /* Elementos de la Navbar */
 .navbar {
-    background-color: #C57DAC;
+    background-color: #C5C3C6;
 }
 .navbar .navbar-brand,
 .navbar .nav-link {
     color: #050505; 
+    font-size: 1.25rem;
 }
 .navbar .nav-link:hover {
-    color: #8F4073;
+    color: #1985A1;
 }
-.navbar .btn-link {
-    color: #ede9e9;
-}
+
 .jumbotron {
-    background-color: #B38FA6;
-    color: #050505;
+  background-color: #4c5c68b8;
+  color: #050505;
+  height: 35vh;
+}
+.jumbotron .display-4 {
+  padding-top: 2rem; 
 }
 
+/* Estilos de la imagen*/
+.header-section {
+    position: relative;
+    text-align: center;
+    padding-bottom: 90px; 
+}
+.profile-image {
+    position: absolute;
+    bottom: 430px; 
+    left: 32%;
+    transform: translateX(-70%);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white; 
+}
 
+#about {
+    margin-top: 50px;
+}
+
+/* Estilos de los botones*/
+.custom-btn {
+    background-color: #1985A1; 
+    color: black; 
+    border: none; 
+    padding: 5px 10px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    display: inline-flex; 
+    align-items: center;
+    font-size: 20px;
+  }
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .custom-btn:hover {
+    background-color: #1986a19f; 
+  }
+  .custom-btn i {
+    margin-right: 5px;
+  }
+
+/* Estilos del formulario */
+form {
+    width: 150%; 
+    max-width: 600px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de las tarjetas */
+.custom-card {
+  height: 2500px; 
+  width: 400px;
+  margin-top: 80px; 
+  margin-bottom: 20px;
+}
+.custom-card .card-img-top {
+  height: 230px; 
+  object-fit: scale-down; 
+}
+.custom-card .card-body {
+  background-color: #C5C3C6;
+  padding: 10px;
+}
+.custom-card .card-title {
+  font-size: 1rem; 
+}
+.custom-card .card-text {
+  font-size: 0.9rem; 
+}
+
+/* Estilos de las secciones */
+.about-section {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    min-height: 30vh;
+  }
+.skills-section {
+    background-color: #C5C3C6;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    min-height: 40vh;
+  }
+.enlaces-section {
+    background-color: #1985A1;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    min-height: 45vh;
+  }
+.enlace-titulo {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+.enlace-link {
+    color: inherit;
+    text-decoration: none;
+}
+.enlace-link:hover {
+    color: #C5C3C6;
+    text-decoration: none;
+}
 
 /* Estilos del modo oscuro */
 .dark-mode {
-     background-color: #121212;
-    color: #ede9e9;
+  background-color: #121212 !important;
+  color: #ede9e9;
 }
 
 .dark-mode body {
-    background-color: #000;
+  background-color: #121212;
 }
 
 .dark-mode .navbar {
-     background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 
 .dark-mode .navbar .navbar-brand,
 .dark-mode .navbar .nav-link,
 .dark-mode .navbar .btn-link {
-    color: #ede9e9 ;
+  color: #ede9e9;
 }
 
 .dark-mode .jumbotron {
-    background-color: #333;
-    color: #ede9e9;
+  background-color: #333;
+  color: #ede9e9;
 }
 
 .dark-mode .form-control {
-    background-color: #333;
-    color: #ede9e9;
+  background-color: #333;
+  color: #ede9e9;
 }
 
 .dark-mode .btn-primary {
-    background-color: #444;
-    border-color: #444;
+  background-color: #444;
+  border-color: #444;
 }
 
 .dark-mode .btn-outline-secondary {
-    color: #ede9e9;
-    border-color: #ede9e9;
+  color: #ede9e9;
+  border-color: #ede9e9;
+}
+
+.dark-mode .about-section,
+.dark-mode .skills-section,
+.dark-mode .enlaces-section,
+.dark-mode .custom-card {
+  background-color: #1e1e1e;
+  color: #ede9e9;
+}
+
+.dark-mode .custom-card .card-body {
+  background-color: #2c2c2c;
+}
+
+.dark-mode .enlace-titulo {
+  color: #ede9e9;
 }
