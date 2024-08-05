@@ -48,8 +48,8 @@ body {
   .profile-image {
       width: 50vw;
       height: auto;
-      max-width: 150px; 
-      max-height: 150px; 
+      max-width: 120px; 
+      max-height: 120px; 
       bottom: 15%; 
       left: 9%; 
       transform: translateX(0)
@@ -57,12 +57,12 @@ body {
 }
 @media (max-width: 576px) {
   .profile-image {
-      width: 60vw;
+      width: 50vw;
       height: auto;
-      max-width: 120px;
-      max-height: 120px;
+      max-width: 100px;
+      max-height: 100px;
       bottom: 10%;
-      left: 10%;
+      left: 8%;
       transform: translateX(-50%);
   }
 }
