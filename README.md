@@ -21,7 +21,7 @@ Bootstrap: Framework para diseño responsivo y componentes predefinidos.
 Font Awesome: Iconos para mejorar la presentación visual.
 
 ### Navegación
-
+https://lauracuenca.github.io/CV-Interactivo/
 
 ### Contacto
 Para más información o consultas, puedes contactarme a través de:
