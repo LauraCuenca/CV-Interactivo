@@ -46,8 +46,13 @@ body {
 
 @media (max-width: 768px) {
   .profile-image {
-      width: 50vw; /* Ajusta según sea necesario */
-      bottom: 5%; /* Ajusta según sea necesario */
+      width: 50vw; /* Ajustar el ancho */
+      height: auto; /* Mantener la relación de aspecto */
+      max-width: 150px; /* Ajustar según sea necesario */
+      max-height: 150px; /* Limitar la altura máxima */
+      bottom: 15%; /* Ajustar la posición según sea necesario */
+      left: 9%; /* Ajusta según sea necesario para mover la imagen más a la izquierda */
+      transform: translateX(0)
   }
 }
 
@@ -79,18 +84,9 @@ body {
     margin-right: 5px;
   }
 
-/* Estilos del formulario */
-form {
-    width: 150%; 
-    max-width: 600px;
-    align-items: center;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Estilos de las tarjetas */
 .custom-card {
-  height: 2500px; 
+  height: 450px; 
   width: 400px;
   margin-top: 80px; 
   margin-bottom: 20px;
