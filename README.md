@@ -9,16 +9,16 @@ Modo Oscuro
 ![Modo Oscuro](https://github.com/user-attachments/assets/68f29198-1fce-4e81-b119-3ddbadfefbff)
 
 ### Funcionalidades
-Interfaz interactiva: Navega entre diferentes secciones del CV.
-Modo claro/oscuro: Alterna entre temas claros y oscuros para una mejor experiencia visual.
-Proyectos Destacados: Incluye detalles y enlaces a los proyectos realizados.
+- Interfaz interactiva: Navega entre diferentes secciones del CV.
+- Modo claro/oscuro: Alterna entre temas claros y oscuros para una mejor experiencia visual.
+- Proyectos Destacados: Incluye detalles y enlaces a los proyectos realizados.
 
 ### Tecnologías Utilizadas
-HTML: Estructura de la página web.
-CSS: Estilos personalizados y diseño responsivo.
-JavaScript: Interactividad, como el cambio de modo claro/oscuro y la carga dinámica de contenido.
-Bootstrap: Framework para diseño responsivo y componentes predefinidos.
-Font Awesome: Iconos para mejorar la presentación visual.
+- HTML: Estructura de la página web.
+- CSS: Estilos personalizados y diseño responsivo.
+- JavaScript: Interactividad, como el cambio de modo claro/oscuro y la carga dinámica de contenido.
+- Bootstrap: Framework para diseño responsivo y componentes predefinidos.
+- Font Awesome: Iconos para mejorar la presentación visual.
 
 ### Navegación
 https://lauracuenca.github.io/CV-Interactivo/
